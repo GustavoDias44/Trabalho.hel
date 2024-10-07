@@ -1,0 +1,33 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1x;
+    padding: 200;
+    background-color:rgb(3, 5, 7);
+    text-align: center;
+}
+
+.container{
+        display: flex; /* Usando Flexbox para layout */
+        flex-direction: column; /* Coluna para alinhar os itens verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        gap: 20px; /* Espaçamento entre os itens */
+    }
+    
+.time{
+    font-family: 'Courier New', Courier, monospace; /* Corrigido o font-family */
+    text-align: center; /* Corrigida a centralização do texto */
+    background-color: rgba(9, 9, 8, 0.718);
+    border: 15px groove rgba(239, 241, 243, 0.927);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 26px 20px rgba(0, 0, 0, 0.5); /* Adicionada cor à sombra */
+    width: 40%;
+}
+
+    
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+} 
+
+
